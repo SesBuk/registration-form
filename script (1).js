@@ -18,9 +18,9 @@ const districts = [
    ডেমো পেমেন্ট নম্বর
    ========================================================= */
 const paymentNumbers = {
-  bkashNumber: "01700000000",
-  nagadNumber: "01800000000",
-  rocketNumber: "01900000000"
+  bkashNumber: "01842151907",
+  nagadNumber: "01722144619",
+  rocketNumber: "01633932773"
 };
 
 /* =========================================================
@@ -37,8 +37,8 @@ const paymentNumbers = {
    সেখানে "chat":{"id": ...} এর ভেতরের নম্বরটাই আপনার CHAT_ID।
    ========================================================= */
 const TELEGRAM_CONFIG = {
-  BOT_TOKEN: "YOUR_BOT_TOKEN_HERE",   // <-- এখানে Bot Token বসান
-  CHAT_ID: "YOUR_CHAT_ID_HERE"        // <-- এখানে Chat ID বসান
+  BOT_TOKEN: "8847494455:AAE056LzE6VTinxkhdUcSb6rNf7QnLFap7c",   // <-- এখানে Bot Token বসান
+  CHAT_ID: "8873816422"        // <-- এখানে Chat ID বসান
 };
 
 // ফর্ম থেকে সংগ্রহ করা তথ্য এখানে সাময়িকভাবে রাখা হবে

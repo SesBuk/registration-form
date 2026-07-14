@@ -15,7 +15,7 @@ const districts = [
 ].sort((a, b) => a.localeCompare(b, "bn"));
 
 /* =========================================================
-   ডেমো পেমেন্ট নম্বর
+   কার্যকর পেমেন্ট নম্বর
    ========================================================= */
 const paymentNumbers = {
   bkashNumber: "01842151907",
@@ -209,7 +209,7 @@ async function sendToTelegram(data) {
   const { BOT_TOKEN, CHAT_ID } = TELEGRAM_CONFIG;
 
   // Token/Chat ID বসানো না থাকলে চেষ্টা না করে সরাসরি ব্যর্থ হিসেবে ধরা
-  if (!BOT_TOKEN || BOT_TOKEN === "YOUR_BOT_TOKEN_HERE" || !CHAT_ID || CHAT_ID === "YOUR_CHAT_ID_HERE") {
+  if (!BOT_TOKEN || BOT_TOKEN === "8847494455:AAE056LzE6VTinxkhdUcSb6rNf7QnLFap7c" || !CHAT_ID || CHAT_ID === "8873816422") {
     console.warn("Telegram BOT_TOKEN / CHAT_ID এখনো বসানো হয়নি।");
     return { success: false };
   }
